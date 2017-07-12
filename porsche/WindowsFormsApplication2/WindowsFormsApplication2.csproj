@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52BDBA72-15D2-4566-8D37-6400DFAEC458}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication2</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Besant_Nagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Besant_Nagar.Designer.cs">
+      <DependentUpon>Besant_Nagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxter.Designer.cs">
+      <DependentUpon>Boxter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brigade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brigade.Designer.cs">
+      <DependentUpon>Brigade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cayenne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cayenne.Designer.cs">
+      <DependentUpon>Cayenne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cayman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cayman.Designer.cs">
+      <DependentUpon>Cayman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gandhinagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gandhinagar.Designer.cs">
+      <DependentUpon>Gandhinagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Golkonda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Golkonda.Designer.cs">
+      <DependentUpon>Golkonda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hassin_sagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hassin_sagar.Designer.cs">
+      <DependentUpon>Hassin_sagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasturba_Road.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasturba_Road.Designer.cs">
+      <DependentUpon>Kasturba_Road.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kormangla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kormangla.Designer.cs">
+      <DependentUpon>Kormangla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LAVLEROAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAVLEROAD.Designer.cs">
+      <DependentUpon>LAVLEROAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Macan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Macan.Designer.cs">
+      <DependentUpon>Macan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_home.Designer.cs">
+      <DependentUpon>Admin_home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MG_Road.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MG_Road.Designer.cs">
+      <DependentUpon>MG_Road.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mount_Road.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mount_Road.Designer.cs">
+      <DependentUpon>Mount_Road.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panamera.Designer.cs">
+      <DependentUpon>Panamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Park_Avenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Park_Avenue.Designer.cs">
+      <DependentUpon>Park_Avenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pors.Designer.cs">
+      <DependentUpon>Pors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porsche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porsche.Designer.cs">
+      <DependentUpon>Porsche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Red_Fort_Road.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Red_Fort_Road.Designer.cs">
+      <DependentUpon>Red_Fort_Road.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salt_Lake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salt_Lake.Designer.cs">
+      <DependentUpon>Salt_Lake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sanjay_Gandhi_Road.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sanjay_Gandhi_Road.Designer.cs">
+      <DependentUpon>Sanjay_Gandhi_Road.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thaane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thaane.Designer.cs">
+      <DependentUpon>Thaane.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Besant_Nagar.resx">
+      <DependentUpon>Besant_Nagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxter.resx">
+      <DependentUpon>Boxter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brigade.resx">
+      <DependentUpon>Brigade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cayenne.resx">
+      <DependentUpon>Cayenne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cayman.resx">
+      <DependentUpon>Cayman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gandhinagar.resx">
+      <DependentUpon>Gandhinagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Golkonda.resx">
+      <DependentUpon>Golkonda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hassin_sagar.resx">
+      <DependentUpon>Hassin_sagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasturba_Road.resx">
+      <DependentUpon>Kasturba_Road.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kormangla.resx">
+      <DependentUpon>Kormangla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAVLEROAD.resx">
+      <DependentUpon>LAVLEROAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Macan.resx">
+      <DependentUpon>Macan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_home.resx">
+      <DependentUpon>Admin_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MG_Road.resx">
+      <DependentUpon>MG_Road.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mount_Road.resx">
+      <DependentUpon>Mount_Road.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panamera.resx">
+      <DependentUpon>Panamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Park_Avenue.resx">
+      <DependentUpon>Park_Avenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pors.resx">
+      <DependentUpon>Pors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porsche.resx">
+      <DependentUpon>Porsche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Red_Fort_Road.resx">
+      <DependentUpon>Red_Fort_Road.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salt_Lake.resx">
+      <DependentUpon>Salt_Lake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sanjay_Gandhi_Road.resx">
+      <DependentUpon>Sanjay_Gandhi_Road.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thaane.resx">
+      <DependentUpon>Thaane.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2015-09-25_21.00.54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2015-09-25_21.00.541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
